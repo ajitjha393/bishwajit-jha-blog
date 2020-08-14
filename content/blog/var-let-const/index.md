@@ -42,14 +42,16 @@ From ES6 onwards a new concept called block level scoping was introduced.
 **Block scope** is comprised of any area that is enclosed between curly Braces **{}**
 This includes area within **if, switch conditions or for and while** loops!
 
+![Block Scoping](./block.png)
+
 This feat led to more specificity towards usage and declaration of variables
 and thus, overcome the problems that used to arise sometimes due to global scoping...
 
-![Block Scoping](./block.png)
+Also enables us towards implementing pure function which are less prone to bugs and
+easy to test!
 
-But Just to get Started with Here is a great quote By [Atwood](https://en.wikipedia.org/wiki/Jeff_Atwood) famously referred as Atwood's Law:
+### Problem that used to arise with var
 
-> “Any application that can be written in JavaScript,
-> will eventually be written in JavaScript.”
+![Problem with Var](./var-prob.png)
 
-![Welcome To Devline](./hello.png)
+Hence I would like to conclude by encouraging you all to embrace this new construct **_let_** and **_const_** for declaring variables and write better JS code!

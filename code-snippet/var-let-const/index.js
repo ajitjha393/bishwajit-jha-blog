@@ -55,3 +55,19 @@ greet()
 
 console.log(name)
 // Where as this will log "Bisu" to the console!
+
+// ------------- var-prob.png -------------
+
+var name = "Bisu"
+
+if (name === "Bisu") {
+  var hobbies = ["Sports", "Coding"]
+  // This gets registered in the global scope and
+  // hence accessible now even from outside this if body
+  // which leads to ambiguity in the code
+
+  console.log(hobbies)
+}
+
+console.log(name, hobbies)
+// Hence now i can access hobbies here outside of the if body
