@@ -43,7 +43,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             marginBottom: rhythm(1),
           }}
         />
-        <footer>
+        <footer
+          style={{
+            marginBottom: rhythm(0),
+          }}
+        >
           <Bio />
         </footer>
       </article>
@@ -56,6 +60,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,
+            marginLeft: 0,
           }}
         >
           <li>
