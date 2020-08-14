@@ -12,7 +12,7 @@ const Layout = ({ location, title, children }) => {
       <h1
         style={{
           ...scale(1.0),
-          marginBottom: rhythm(1.5),
+          marginBottom: rhythm(1.2),
           marginTop: 0,
         }}
       >
@@ -59,9 +59,11 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        {/* © {new Date().getFullYear()}, Built with
+        {` `} */}
+        <a href="https://github.com/ajitjha393">Github</a> |
+        <a href="https://www.npmjs.com/~ajitjha393">NPM</a> |{"  "}
+        <a href="https://twitter.com/BISHWAJITjha6">Twitter</a>
       </footer>
     </div>
   )
