@@ -1,22 +1,18 @@
 ---
 title: Hello JS Guys!
-date: "2015-05-01T22:12:03.284Z"
+date: "2020-08-13"
 description: "Hello World"
 ---
 
-This is my first post on my new fake blog! How exciting!
+This is my first post on Devline! How exciting 👨🏻‍💻!
 
-I'm sure I'll write a lot more interesting things in the future.
+I'm sure I'll write a lot more interesting things in the future about web and its technologies.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+I will try to explain weird and complex stuff related to Javascript and Typescript using words and code snippets, so stay tuned..
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+But Just to get Started with Here is a great quote By [Atwood](https://en.wikipedia.org/wiki/Jeff_Atwood) famously referred as Atwood's Law:
 
-![Chinese Salty Egg](./salty_egg.jpg)
+> “Any application that can be written in JavaScript,
+> will eventually be written in JavaScript.”
+
+![Welcome To Devline](./hello.png)
