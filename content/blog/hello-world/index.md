@@ -1,7 +1,7 @@
 ---
 title: Hello JS Guys!
 date: "2020-08-13"
-description: "Hello World"
+description: "Just Getting Started with Devline..."
 ---
 
 This is my first post on Devline! How exciting 👨🏻‍💻!
