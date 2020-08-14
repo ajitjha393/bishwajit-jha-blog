@@ -3,7 +3,7 @@ module.exports = {
     title: `DevLine`,
     author: {
       name: `Bishwajit Jha`,
-      summary: `who lives in Mumbai building useful things.`,
+      summary: `CS Undergrad, Passionate about building things with code.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://bishwajit-jha.netlify.com/`,
