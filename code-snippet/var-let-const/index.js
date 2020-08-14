@@ -21,12 +21,37 @@ someVariable_3 = 8 // Throw err
 
 // ----------------------------------
 
-var name = 'Bisu'
+var name = "Bisu"
 
 function greet() {
-	var name = 'Aju'
-	console.log(name)
+  var name = "Aju"
+  console.log(name)
 }
 
 greet()
 console.log(name)
+
+// --------------------------
+
+let name = "Bisu" // This is scoped globally
+
+function greet() {
+  let name = "Aju" // This is scoped as block level
+  /*
+		What this means is that variable name declared
+		inside this scope shadows the variable that 
+		is present in the global scope.
+
+		Hence we see the specificity of let is more
+		and due to which it doesn't override the 
+		variable declared outside of this scope
+
+	*/
+  console.log(name)
+  // Hence this will Print name "Aju"
+}
+
+greet()
+
+console.log(name)
+// Where as this will log "Bisu" to the console!

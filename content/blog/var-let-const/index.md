@@ -23,6 +23,8 @@ If you all are familiar with other languages like **(C, C++, Java)** you might n
 **_let_** and **_const_** for instance have all the properties same except from reassignability.
 Interesting Variations can be seen in case of **_let_** and **_var_**.
 
+First Improvement in **_let_** over **_var_** was that the **redeclaration** of variable in the same scope was not allowed using the modern construct!
+
 **_var_** - Global and Function Scope  
 **_let_** - Block Scope
 
@@ -42,6 +44,8 @@ This includes area within **if, switch conditions or for and while** loops!
 
 This feat led to more specificity towards usage and declaration of variables
 and thus, overcome the problems that used to arise sometimes due to global scoping...
+
+![Block Scoping](./block.png)
 
 But Just to get Started with Here is a great quote By [Atwood](https://en.wikipedia.org/wiki/Jeff_Atwood) famously referred as Atwood's Law:
 
